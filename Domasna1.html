@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pizza</title>
+    </head>
+
+    <body style="text-align: center;">
+        <h1>Order pizza!</h1>
+
+        <p><strong>Select the pizza size:</strong><br>
+       <label>
+            <input name="name" type="radio" value="Big" checked>Big
+       </label><br>
+        <label>
+            <input name="name" type="radio" value="Medium" >Medium
+        </label><br>
+        <label>
+            <input name="name" type="radio" value="Small">Small
+        </label><br>
+        <p>
+       <label><strong>Select the crust type:</strong><br>
+        <select name="select ">
+            <option selected>Deep Dish</option>
+        </select>
+       </label>
+        </p>
+
+    </p>
+    <p><strong>Select the filler:</strong><br>
+        <label>
+             <input name="name" type="checkbox" value="Sausages">Sausages
+        </label><br>
+         <label>
+             <input name="name" type="checkbox" value="Pepper">Pepper
+         </label><br>
+         <label>
+             <input name="name" type="checkbox" value="Mushrooms">Mushrooms
+         </label><br>
+        <p><strong></strong></p>
+
+        <p style="margin: 0%;" ><label><strong>Name:</strong>
+            <input name="name" type="text" size="25" maxlenght="30" style="margin:0%;">
+        </label></p>
+        <p style="margin: 0%;"><label><strong>Phone:</strong>
+            <input pattern="\(\d{3})+\{3}-\d{3}" size="25">
+        </label></p>
+        <textarea rows="4" cols="36">Message:
+        </textarea>
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </p>
+    
+    </body>
+</html>
