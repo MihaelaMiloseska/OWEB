@@ -1,0 +1,64 @@
+body{
+
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/375px-Pizza-3007395.jpg);
+    background-size:auto;
+    
+    
+}
+h1{
+    text-align: center;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25pt;
+    margin-top: 20px;
+
+}
+form{
+    text-align: center;
+    width: 300px;            
+    margin: 0 auto;          
+    padding: 14px;
+    background: rgba(217, 161, 101, 0.618); 
+    border-radius: 20px;
+    box-shadow: 10 10 10px rgba(207, 117, 117, 0.5);
+}
+p,p1,p2,p3,p4,p5{
+    border: 3px solid black;
+    padding: 5px 20px;
+    background: bisque;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: rgba(10, 1, 1, 0.822);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-decoration: rgba(10, 1, 1, 0.634) dotted underline;
+    font-size: 12px;
+    text-shadow: 5px 5px 5px rgb(91, 88, 85);
+}
+input[type="submit"], input[type="reset"] 
+{
+    border:3px solid black;
+    padding:5px 20px;
+    background: linear-gradient(to right , rgb(52, 40, 19), orange); 
+    color: white;
+    border-radius: 30px;
+    border-style: dotted;
+    padding: 10px 25px;
+    padding: 10 px 25 px;
+}
+input[type="text"]{
+    border-style:groove;
+    border-radius: 5px;
+    color: rgba(137, 37, 37, 0.801);
+}
+textarea{
+    border-style:hidden;
+    border-radius: 30px;
+    color: rgb(75, 50, 5);
+    text-align: justify;
+}

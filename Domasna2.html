@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Pizza</title> 
+        <link rel="stylesheet" href="Domasna2.css">
+    </head>
+
+    <body style="text-align: center;">
+        <h1>Order pizza!</h1>
+
+        <p1><strong>Select the pizza size:</strong><br>
+       <label>
+            <input name="name" type="radio" value="Big" checked>Big
+       </label><br>
+        <label>
+            <input name="name" type="radio" value="Medium" >Medium
+        </label><br>
+        <label>
+            <input name="name" type="radio" value="Small">Small
+        </label><br>
+        </p1>
+        <p2>
+       <label><strong>Select the crust type:</strong><br>
+        <select name="select ">
+            <option selected>Deep Dish</option>
+            <option>Thin crust</option>
+            <option>Crispy crust</option>
+        </select>
+       </label>
+        
+
+    </p2>
+    <p3><strong>Select the filler:</strong><br>
+        <label>
+             <input name="name" type="checkbox" value="Sausages">Sausages
+        </label><br>
+         <label>
+             <input name="name" type="checkbox" value="Pepper">Pepper
+         </label><br>
+         <label>
+             <input name="name" type="checkbox" value="Mushrooms">Mushrooms
+         </label><br>
+    </p3>
+        
+
+        <p style="margin: 0%;" ><label><strong>Name:</strong>
+            <input name="name" type="text" size="25" maxlenght="30" >
+        </label>
+        </p>
+        <p style="margin: 0%;"><label><strong>Phone:</strong>
+            <input pattern="\(\d{3})+\{3}-\d{3}" size="25">
+        
+        </label>
+        </p>
+        
+        <p><textarea rows="4" cols="26">  Message:
+        </textarea>
+        </p>
+        
+        
+        
+        <p>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </p>
+    
+    
+    
+    </body>
+</html>
