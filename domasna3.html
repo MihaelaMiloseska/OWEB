@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бесилка</title>
+    <link rel="stylesheet" href="domasna3.css">
+    <script src="domasna3.js"></script>
+</head>
+<body>
+    <div class="game-container">
+        <h1> Погоди го зборот</h1>
+        <p id="hint" class="hint"></p>
+        <input type="text" id="guess" class="guess-input" placeholder="Внеси збор" autofocus>
+        <button id="checkButton" class="check-button">Провери</button>
+        <p id="attempts" class="attempts">Преостанати обиди: 5</p>
+
+        
+        <div id="gameModal" class="modal">
+            <div class="modal-content">
+                <span id="modalClose" class="close">&times;</span>
+                <p id="modalMessage"></p>
+                <button id="restartButton" class="restart-button">Игaj повторно</button>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
