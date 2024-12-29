@@ -1,0 +1,54 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(https://betting.cdnppb.net/es-sportsbook/GettyImages-1399439188.728x486.jpg);
+    background-size:cover;
+    background-position: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(47, 36, 36, 0.2); 
+  }
+  
+  button {
+    outline: none;
+    color: white;
+    background-color: #80e6d6; 
+    border:#acb9c6;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4ad7df; 
+  }
+  
+  button:active {
+    transform: scale(0.95); 
+  }
+  */
+
+  .is-odd{color:green;}
+  .is-even{color:orange;}
+  .is-first{color:yellow;}
+  .is-last{color:blue;}
+  
+  
