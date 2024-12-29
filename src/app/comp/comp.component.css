@@ -1,4 +1,4 @@
-/*div {
+div {
     text-align: left;
     font-family: Arial,sans-serif;
     color:white;
@@ -33,11 +33,6 @@
     transform: scale(1.05);
     border-color: #2d7f4f;
 }
-    */
-    .begin{
-      background: rgb(67, 169, 137);
-    }
-    .adv{
-      background: rgb(151, 156, 205);
-    }
+    
+    
   

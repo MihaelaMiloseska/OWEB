@@ -32,14 +32,6 @@ export const DRIVERS: any = [
         category: 'ASD',
         points: 10
     },
-    {
-        id: 5,
-        name: "Valentino",
-        iconUrl: 'https://storage.googleapis.com/ecm-prod/assets/1/pilote/4656/46-valentino-rossi-grande_58fba.png',
-        team: "VR46",
-        category: 'best',
-        points: 100
-    },
-    
+      
 
 ];
