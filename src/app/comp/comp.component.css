@@ -1,4 +1,4 @@
-div {
+/*div {
     text-align: left;
     font-family: Arial,sans-serif;
     color:white;
@@ -32,6 +32,19 @@ div {
     background-color: #1e5734;
     transform: scale(1.05);
     border-color: #2d7f4f;
+}
+*/
+
+.begin {
+  background: lightcoral;
+}
+
+.adv {
+  background: lightseagreen;
+}
+
+.lun {
+  background: lightcyan;
 }
     
     
