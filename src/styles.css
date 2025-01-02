@@ -1,4 +1,4 @@
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -45,6 +45,13 @@
   button:active {
     transform: scale(0.95); 
   }
+*/
+.is-odd {color: orange;}
+.is-even {color: green;}
+.is-first {color: red;}
+.is-last {color: blue;}
+
+
  
   
   
