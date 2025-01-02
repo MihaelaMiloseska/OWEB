@@ -1,4 +1,4 @@
-<div>
+<!--<div>
     <div> 
         {{indeks + "." + vozac?.name}}
     
@@ -12,5 +12,29 @@
 
     <div>
         &nbsp;
+    </div>
+</div>
+-->
+<div *ngIf="vozac?.name!=undefined" [ngClass]="klasi2()">
+    <div>
+        <ng-template #noImg>Ja nema slikata!</ng-template>
+        <div role="heading" aria-level="2">
+            {{ indeks + ". " + vozac?.name }}
+        </div>
+        <img width="300" *ngIf="vozac?.iconUrl; else noImg" [src]="vozac?.iconUrl"
+            alt="This is an image"
+            role="img"
+            [attr.aria-label]="'Slika za ' + vozac?.iconUrl">
+        <div [style.text-decoration]="stilovi()">
+            {{ vozac?.team }}
+        </div>
+        <div [ngSwitch]="vozac?.category">
+            <div *ngSwitchCase="'EXPERT'">EXPERT</div>
+            <div *ngSwitchCase="'LUNATIC'">LUNATIC</div>
+            <div *ngSwitchCase="'ASD'">Dusicka</div>
+            <div *ngSwitchDefault>No comment</div>
+        </div>
+        <button aria-haspopup="true" (click)="onDrvView()" aria-expanded="false">View driver</button>
+        <div>&nbsp;</div>
     </div>
 </div>
