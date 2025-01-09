@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DELUXEAUTO</title>
+    <link rel="stylesheet" href="koli.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+<body>
+    <!-- top navigation -->
+<div class="topnav">
+    <a href="#">Дома</a>
+    <a href="newcars.html">Нови возила</a>
+    <a href="usedcars.html">Половни возила</a>
+    
+  </div>
+
+
+
+  
+   
+  
+  <!-- Slide Show -->
+  <section>
+    <img class="mySlides" src="https://wallpaper.dog/large/20474856.jpg" alt="AUDI"style="width:100%">
+    <img class="mySlides" src="https://preview.redd.it/bmw-m2-competition-2018-v0-zx8mua25bu091.png?width=1080&crop=smart&auto=webp&s=8911aa48d47355115bc22c30ab90fb910f7b7899" alt="BMW" style="width:100%">
+    <img class="mySlides" src="https://images.remorainc.com/uploads/dmi/a/qcpJACnjS5u6JWBeI1Hg_008-2024-Ford-Mustang-GT-Premium.jpg" alt="GOLF"style="width:100%">
+    <img class="mySlides" src="https://wallpapers.com/images/hd/mercedes-desktop-88olc6llayt2y1z3.jpg" alt="mercedes" style="width: 100%">
+</section>
+  
+   
+
+<div class="hero-section">
+    <div class="logo">DELUXEAUTO</div>
+    <div class="hero-title">Најдобрите возила за вас</div>
+</div>
+
+
+<!--Loggin forma sto izlga na pocetok-->
+
+<div id="loginPopup">
+    <div class="popup-content">
+        <span id="closeBtn" class="close-btn">&times;</span>
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="email" id="email" placeholder="Email" required><br>
+            <input type="password" id="password" placeholder="Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+    <main class="main-container">
+        <div class="categories">
+            <!-- New Cars -->
+            <div class="category-card">
+                
+                <h2>Нови Возила</h2>
+                <img src="https://virtualcargallery.com/wp-content/uploads/2023/12/2024-BMW-M4-COMPETITION-7-1024x683.jpg" alt="Нови возила" class="category-image">
+                <p>Откријте ја нашата колекција на нови возила со најновите модели и технологии.</p>
+                <div class="category-links">
+                    <a href="newcars.html">Преглед на модели</a>
+                </div>
+                
+                <!-- Test Drive Form -->
+                 <form class="test-date-form"></form>
+                <div class="test-drive-container">
+                    <h3>Закажете тест возење</h3>
+                    <form class="test-drive-form" id="testDriveForm">
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="Име и презиме" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Е-пошта" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carModel">Селектирај модел:</label>
+                            <select id="carModel" required>
+                                <option value="" disabled selected>Изберете модел</option>
+                                <option value="BMW M4">BMW M4</option>
+                                <option value="Ford Mustang">Ford Mustang</option>
+                                <option value="Audi Q8">Audi Q8</option>
+                                <option value="Mercedes-Benz C-Class">Mercedes-Benz C-Class</option>
+                                <option value="Volkswagen Golf GTI">Volkswagen Golf GTI</option>
+                                <option value="Chevrolet Camaro">Chevrolet Camaro</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Закажи</button>
+                    </form>
+                </div>
+            </form>
+            </div>
+
+            <!-- Used Cars -->
+            <div class="category-card">
+                <h2>Половни Возила</h2>
+                <img src="https://bluesky.cdn.imgeng.in/cogstock-images/dealer360-5eed43a32643204f8f30c831b5fb7a20565699c9.jpg?imgeng=/w_auto,1200/" alt="Половни возила" class="category-image">
+                <p>Разгледајте ја нашата селекција на внимателно проверени половни возила.</p>
+                <div class="category-links">
+                    <a href="usedcars.html">Достапни возила</a>
+
+
+                    
+                </div>
+
+
+              <form class="test-drive-form">
+                <div class="test-drive-container">
+                    <h3>Закажете тест возење</h3>
+                    <form class="test-drive-form" id="testDriveForm">
+                        <div class="form-group">
+                            <input type="text" id="fullName" placeholder="Име и презиме" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Е-пошта" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="carModel">Селектирај модел:</label>
+                            <select id="carModel" required>
+
+                                <option value="" disabled selected>Изберете модел</option>
+                                <option value="AUDI A5 2.0 TDI">AUDI A5 2.0 TDI</option>
+                                <option value="VOLKSWAGEN GOLF 8 2.0 TDI">VOLKSWAGEN GOLF 8 2.0 TDI</option>
+                                <option value="MERCEDES-BENZ E300">MERCEDES-BENZ E300 </option>
+                                <option value="MERCEDES-BENZ A200">MERCEDES-BENZ A200</option>
+                                <option value="AUDI A3 1.6 TDI">AUDI A3 1.6 TDI </option>
+                                 
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary">Закажи</button>
+                    </form>
+                </div>
+              </form>
+            </div>
+            </div>
+        </div>
+
+    
+
+
+        <!--  Instagram нови возила -->
+<div class="instagram-feed">
+    <h2>Мини инстаграм за нови возила</h2>
+    <div class="instagram-grid" id="instagramGrid">
+        
+    </div>
+</div>
+
+
+<!--  половни возила -->
+<div class="instagram-feed">
+    <h2>Мини Инстаграм за Половни Возила</h2>
+    <div class="instagram-grid" id="usedInstagramGrid">
+    </div>
+</div>
+
+
+
+
+
+<section>
+     <!--анкета -->
+<div class="survey-section">
+    <h2>Анкета за посетители</h2>
+    <form class="survey-form" id="surveyForm">
+        <div class="form-group">
+            <label>Како го оценувате нашиот сајт?</label>
+            <div class="radio-group">
+                <label>
+                    <input type="radio" name="rating" value="excellent" required>
+                    Одлично
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="good" required>
+                    Добро
+                </label>
+                <label>
+                    <input type="radio" name="rating" value="improve" required>
+                    Може подобро
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>Што најмногу ви се допадна?</label>
+            <textarea id="likedMost" rows="3" placeholder="Вашите мислења..."></textarea>
+        </div>
+        <div class="form-group">
+            <label>Што би подобриле?</label>
+            <textarea id="improvementSuggestions" rows="3" placeholder="Вашите предлози..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Испрати</button>
+    </form>
+</div>
+
+
+
+   
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Контакт</h3>
+                <p>Тел: 02/1234-567</p>
+                <p>Е-пошта: info@deluxeauto.mk</p>
+            </div>
+            <div class="footer-section">
+                <h3>Работно време</h3>
+                <p>Пон-Пет: 09:00-18:00</p>
+                <p>Саб: 09:00-14:00</p>
+            </div>
+            <div class="footer-section">
+                <h3>Следете нè</h3>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/deluxeautokumanovoinfo/profilecard/">Facebook</a>
+                    <a href="https://www.facebook.com/deluxeautomk">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="kolijquery.js"></script>
+</body>
+</html>
